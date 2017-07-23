@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/blue_medium"
+    android:paddingLeft="15dp"
+    tools:ignore="RtlHardcoded">
+
+    <TextView
+        android:id="@+id/menu_item_left_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/white"
+        fontPath="fonts/weathericons-regular-webfont.ttf"
+        android:text="@string/font_weather_sunny"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        tools:ignore="MissingPrefix,RtlHardcoded" />
+
+
+    <TextView
+        android:id="@+id/menu_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/menu_item_left_icon"
+        android:layout_toLeftOf="@+id/menu_item_right_icon"
+        android:layout_toRightOf="@+id/menu_item_left_icon"
+        android:layout_toStartOf="@+id/menu_item_right_icon"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/menu_item_right_icon"
+        fontPath="fonts/fontawesome-webfont.ttf"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/blue_very_light"
+        android:gravity="center"
+        android:text="@string/font_awesome_icon_search"
+        android:textSize="21sp"
+        tools:ignore="MissingPrefix,RtlHardcoded" />
+</RelativeLayout>

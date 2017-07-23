@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/mainGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        grid:alignmentMode="alignBounds"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/colorAccent">
+
+
+        </View>
+
+        <LinearLayout
+            android:id="@+id/fragment_share"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1">
+
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                 />
+
+
+
+        </LinearLayout>
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/colorAccent">
+
+
+        </View>
+        <LinearLayout
+            android:id="@+id/fragment_history"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1">
+
+            <ImageView
+                android:id="@+id/history"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                 />
+
+
+        </LinearLayout>
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/colorAccent">
+
+
+        </View>
+        <LinearLayout
+            android:id="@+id/fragment_actual_events"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1">
+
+            <ImageView
+                android:id="@+id/events"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                 />
+
+
+        </LinearLayout>
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/colorAccent">
+
+
+        </View>
+        <LinearLayout
+            android:id="@+id/fragment_show_on_map"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1">
+
+            <ImageView
+                android:id="@+id/show_map"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                 />
+            
+
+        </LinearLayout>
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/colorAccent">
+
+
+        </View>
+    </LinearLayout>
+
+    </android.support.v7.widget.GridLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">WeatherZen</string>
+    <string name="facebook_app_id">1902861173283448</string>
+    <string name="fb_login_protocol_scheme">fb1902861173283448</string>
+
+    <string name="font_awesome_icon_search">&#xf0a9;</string>
+    <string name="font_awesome_icon_heart">&#xf08a;</string>
+    <string name="font_awesome_icon_star">&#xf005;</string>
+    <string name="font_awesome_icon_pin">&#xf041;</string>
+
+    <string name="font_weather_rain">&#xf019;</string>
+    <string name="font_weather_snow">&#xf01b;</string>
+    <string name="font_weather_sunny">&#xf00d;</string>
+    <string name="font_weahter_cloudy">&#xf013;</string>
+
+    <string name="font_awsome_like">&#xf004;</string>
+    <string name="font_awsome_share">&#xf030;</string>
+    <string name="font_awsome_galery">&#xf03e;</string>
+    <string name="font_awsome_umbrella">&#xf0e9; </string>
+
+
+
+
+    <string name="share_url">http://www.indievox.com/public/anniversary/six/image/fb-share-button.png</string>
+    <string name="upcoming_events_url">http://tenndha.com/wp-content/uploads/2013/03/Upcoming-Events.jpg</string>
+    <string name="maps_url">https://img.tuttoandroid.net/wp-content/uploads/2015/11/maps-9.811.png</string>
+    <string name="galery_url">http://www.teatrarlekin.pl/images/galeria-a/logo-galeriA.jpg</string>
+
+    <string-array name="cities">
+        <item>Krakow</item>
+        <item>Lodz</item>
+        <item>Warszawa</item>
+        <item>Wroclaw</item>
+        <item>Gdynia</item>
+        <item>Gdansk</item>
+    </string-array>
+    <string-array name="options_array">
+        <item>Share Photo</item>
+        <item>Galeria eventów</item>
+        <item>Pogoda w mieście</item>
+        <item>Zostaw like</item>
+        <item>Login/out</item>
+    </string-array>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+</resources>
